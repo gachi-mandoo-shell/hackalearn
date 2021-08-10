@@ -2,9 +2,9 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { Card as AntdCard } from "antd";
 
-const Card = ({ image, title, description, link, place, isLoding = false }) => {
+const Card = ({ id, image, title, description, place, isLoding = false }) => {
   return (
-    <Link to={link}>
+    <Link to={`/games/${id}`}>
       <AntdCard
         style={{
           display: "inline-block",

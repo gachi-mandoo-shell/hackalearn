@@ -1,7 +1,83 @@
 {
-  "서울": [
+  "locations": [
     {
-      "title": "왕의 생일잔치"
+      "location": "Seoul",
+      "Seoul": [
+        {
+          "id": 4201,
+          "title": "왕의 생일잔치",
+          "image": "/img/경복궁.jpeg",
+          "description": "왕의 생일잔치를 도와라!",
+          "place": "경복궁"
+        },
+        {
+          "id": 4202,
+          "title": "롯데월드타워",
+          "image": "/img/경복궁.jpeg",
+          "description": "잠실 롯데월드타워",
+          "place": "롯데월드타워"
+        },
+        {
+          "id": 4203,
+          "title": "보라매 공원",
+          "image": "/img/경복궁.jpeg",
+          "description": "보라매 공원",
+          "place": "보라매 공원"
+        }
+      ]
+    },
+    {
+      "location": "Busan",
+      "Busan": [
+        {
+          "id": 4211,
+          "title": "왕의 생일잔치",
+          "image": "/img/경복궁.jpeg",
+          "description": "왕의 생일잔치를 도와라!",
+          "place": "경복궁"
+        },
+        {
+          "id": 4212,
+          "title": "롯데월드타워",
+          "image": "/img/경복궁.jpeg",
+          "description": "잠실 롯데월드타워",
+          "place": "롯데월드타워"
+        },
+        {
+          "id": 4213,
+          "title": "보라매 공원",
+          "image": "/img/경복궁.jpeg",
+          "description": "보라매 공원",
+          "place": "보라매 공원"
+        }
+      ]
+    },
+    {
+      "location": "Jeju",
+      "Jeju": [
+        {
+          "id": 4221,
+          "title": "왕의 생일잔치",
+          "image": "/img/경복궁.jpeg",
+          "description": "왕의 생일잔치를 도와라!",
+          "place": "경복궁"
+        },
+        {
+          "id": 4222,
+          "title": "롯데월드타워",
+          "image": "/img/경복궁.jpeg",
+          "description": "잠실 롯데월드타워",
+          "place": "롯데월드타워"
+        },
+        {
+          "id": 4223,
+          "title": "보라매 공원",
+          "image": "/img/경복궁.jpeg",
+          "description": "보라매 공원",
+          "place": "보라매 공원"
+        }
+      ]
     }
   ]
 }
+  
