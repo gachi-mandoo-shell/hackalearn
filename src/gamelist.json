@@ -9,56 +9,72 @@
       "title": "왕의 생일잔치",
       "image": "/img/경복궁.jpeg",
       "description": "왕의 생일잔치를 도와라!",
-      "place": "경복궁"
+      "place": "경복궁",
+      "playtime": "30min",
+      "level": "4/5"
     },
     "4202": {
       "location": "Seoul",
       "title": "롯데월드타워",
       "image": "/img/경복궁.jpeg",
       "description": "잠실 롯데월드타워",
-      "place": "롯데월드타워"
+      "place": "롯데월드타워",
+      "playtime": "30min",
+      "level": "4/5"
     },
     "4203": {
       "location": "Seoul",
       "title": "보라매 공원",
       "image": "/img/경복궁.jpeg",
       "description": "보라매 공원",
-      "place": "보라매 공원"
+      "place": "보라매 공원",
+      "playtime": "30min",
+      "level": "4/5"
     },
     "4211": {
       "location": "Busan",
       "title": "왕의 생일잔치",
       "image": "/img/경복궁.jpeg",
       "description": "왕의 생일잔치를 도와라!",
-      "place": "경복궁"
+      "place": "경복궁",
+      "playtime": "30min",
+      "level": "4/5"
     },
     "4212": {
       "location": "Busan",
       "title": "롯데월드타워",
       "image": "/img/경복궁.jpeg",
       "description": "잠실 롯데월드타워",
-      "place": "롯데월드타워"
+      "place": "롯데월드타워",
+      "playtime": "30min",
+      "level": "4/5"
     },
     "4213": {
       "location": "Busan",
       "title": "보라매 공원",
       "image": "/img/경복궁.jpeg",
       "description": "보라매 공원",
-      "place": "보라매 공원"
+      "place": "보라매 공원",
+      "playtime": "30min",
+      "level": "4/5"
     },
     "4221": {
       "location": "Jeju",
       "title": "왕의 생일잔치",
       "image": "/img/경복궁.jpeg",
       "description": "왕의 생일잔치를 도와라!",
-      "place": "경복궁"
+      "place": "경복궁",
+      "playtime": "30min",
+      "level": "4/5"
     },
     "4222": {
       "location": "Jeju",
       "title": "롯데월드타워",
       "image": "/img/경복궁.jpeg",
       "description": "잠실 롯데월드타워",
-      "place": "롯데월드타워"
+      "place": "롯데월드타워",
+      "playtime": "30min",
+      "level": "4/5"
 
     },
     "4223": {
@@ -66,7 +82,9 @@
       "title": "보라매 공원",
       "image": "/img/경복궁.jpeg",
       "description": "보라매 공원",
-      "place": "보라매 공원"
+      "place": "보라매 공원",
+      "playtime": "30min",
+      "level": "4/5"
     }
   }
 }
