@@ -5,11 +5,28 @@ import data from "../gamelist.json";
 import List from "../components/List";
 
 const Home = () => {
+  const filterInfo = (location) => {
+    const result = [];
+    Object.keys(data.datas).forEach(
+      (key) => {
+        if (data.datas[key].location === location)
+          result.push(
+            {
+              ...data.datas[key],
+              id: key,
+            }
+          )
+      });
+    return result
+  }
   return (
     <Container>
-      {data["locations"].map((data) => (
-        <List key={data.location} data={data} />
-      ))}
+      {data.locations.map((location) =>
+        <List key={location} location={location}
+          data={
+            filterInfo(location)
+          } />
+      )}
     </Container>
   );
 };

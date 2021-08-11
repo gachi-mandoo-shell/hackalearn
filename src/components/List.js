@@ -2,16 +2,16 @@ import React from "react";
 import Card from "./Card";
 import { Card as AntdCard } from "antd"
 
-const List = ({ data }) => {
-  console.log(data[data.location])
+const List = ({ location, data }) => {
+  console.log(data)
   return (
     <>
-      <h1>{data.location}</h1>
+      <h1>{location}</h1>
       <div style={{
         display: "flex",
         gap: "20px",
       }}>
-        {data[data.location].map((game) => (
+        {data.map((game) => (
           <Card
             key={game.id}
             id={game.id}
