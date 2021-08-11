@@ -10,6 +10,7 @@ const SideBar = ({ id, info }) => {
 	return (
 		<div style={{
 			position: "sticky",
+			marginTop: "2rem",
 			top: "20px",
 		}}>
 			<Card title={info.title} style={{ borderRadius: "10px", marginBottom: "5px" }}>
