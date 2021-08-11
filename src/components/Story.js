@@ -1,6 +1,6 @@
 import React from "react";
 
-const Story = () => {
+const Story = ({ story }) => {
   return (
     <div
       style={{
@@ -11,11 +11,13 @@ const Story = () => {
       <h1
         style={{
           marginTop: "2rem",
+          fontSize: "25px",
+          fontWeight: "bold",
         }}
       >
-        Story
+        스토리
       </h1>
-      <p>게임설명</p>
+      <p>{story}</p>
     </div>
   );
 };

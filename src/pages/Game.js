@@ -7,24 +7,23 @@ import View from "../components/View";
 import SideBar from "../components/SideBar";
 import data from "../gamelist.json";
 import NotFound from "./NotFound";
-import { Row, Col } from 'antd';
+import { Row, Col } from "antd";
 
 const Game = () => {
   const { id } = useParams();
   const info = data.datas[id];
 
-  console.log(info)
+  console.log(info);
 
-  if (info === undefined)
-    return (<NotFound />);
+  if (info === undefined) return <NotFound />;
 
   return (
     <Container>
-      <Row style={{rowGap: "50px"}}>
+      <Row style={{ rowGap: "50px" }}>
         <Col span={16}>
           <GameImg image={info.image} />
-          <View view={info.view} />
-          <Story />
+          <View view={info.view} tag={info.tag} />
+          <Story story={info.story} />
         </Col>
         <Col span={1} />
         <Col span={7}>
