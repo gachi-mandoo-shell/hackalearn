@@ -19,6 +19,7 @@ const List = ({ location, data }) => {
             image={game.image}
             description={game.description}
             place={game.place}
+            isSkeleton={game.isSkeleton}
           />
         ))}
       </div>
