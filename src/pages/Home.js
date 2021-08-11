@@ -3,6 +3,7 @@ import React from "react";
 import Container from "../components/Container";
 import data from "../gamelist.json";
 import List from "../components/List";
+import Landing from "../components/Landing";
 
 const Home = () => {
   const filterInfo = (location) => {
@@ -21,6 +22,7 @@ const Home = () => {
   }
   return (
     <Container>
+      <Landing />
       {data.locations.map((location) =>
         <List key={location} location={location}
           data={
