@@ -1,7 +1,8 @@
 {
   "locations": [
     "Seoul",
-    "Busan"
+    "Busan",
+    "Jeju"
   ],
   "datas": {
     "4201": {
@@ -11,7 +12,8 @@
       "description": "왕의 생일잔치를 도와라!",
       "place": "경복궁",
       "playtime": "30min",
-      "level": "4/5"
+      "level": "4/5",
+      "isSkeleton": false
     },
     "4202": {
       "location": "Seoul",
@@ -20,7 +22,8 @@
       "description": "잠실 롯데월드타워",
       "place": "롯데월드타워",
       "playtime": "30min",
-      "level": "4/5"
+      "level": "4/5",
+      "isSkeleton": true
     },
     "4203": {
       "location": "Seoul",
@@ -29,7 +32,8 @@
       "description": "보라매 공원",
       "place": "보라매 공원",
       "playtime": "30min",
-      "level": "4/5"
+      "level": "4/5",
+      "isSkeleton": true
     },
     "4211": {
       "location": "Busan",
@@ -38,7 +42,8 @@
       "description": "왕의 생일잔치를 도와라!",
       "place": "경복궁",
       "playtime": "30min",
-      "level": "4/5"
+      "level": "4/5",
+      "isSkeleton": true
     },
     "4212": {
       "location": "Busan",
@@ -47,7 +52,8 @@
       "description": "잠실 롯데월드타워",
       "place": "롯데월드타워",
       "playtime": "30min",
-      "level": "4/5"
+      "level": "4/5",
+      "isSkeleton": true
     },
     "4213": {
       "location": "Busan",
@@ -56,7 +62,8 @@
       "description": "보라매 공원",
       "place": "보라매 공원",
       "playtime": "30min",
-      "level": "4/5"
+      "level": "4/5",
+      "isSkeleton": true
     },
     "4221": {
       "location": "Jeju",
@@ -65,7 +72,8 @@
       "description": "왕의 생일잔치를 도와라!",
       "place": "경복궁",
       "playtime": "30min",
-      "level": "4/5"
+      "level": "4/5",
+      "isSkeleton": true
     },
     "4222": {
       "location": "Jeju",
@@ -74,8 +82,8 @@
       "description": "잠실 롯데월드타워",
       "place": "롯데월드타워",
       "playtime": "30min",
-      "level": "4/5"
-
+      "level": "4/5",
+      "isSkeleton": true
     },
     "4223": {
       "location": "Jeju",
@@ -84,7 +92,8 @@
       "description": "보라매 공원",
       "place": "보라매 공원",
       "playtime": "30min",
-      "level": "4/5"
+      "level": "4/5",
+      "isSkeleton": true
     }
   }
 }
