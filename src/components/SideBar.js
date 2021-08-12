@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Card, Button, Divider, Row, Col } from 'antd';
+import { Card, Button, Divider, Rate } from 'antd';
 import {
 	FieldTimeOutlined,
 	TrophyOutlined,
@@ -17,10 +17,8 @@ const SideBar = ({ id, info }) => {
 				<p>장소: {info.place}</p>
 				<p>요약: {info.description}</p>
 				<Divider />
-				<Row>
-					<Col span={12}><FieldTimeOutlined /> Playtime: {info.playtime}</Col>
-					<Col span={12}><TrophyOutlined /> Level: {info.level}</Col>
-				</Row>
+				<FieldTimeOutlined /> Playtime: {info.playtime}<br />
+				<TrophyOutlined /> Level: <Rate disabled defaultValue={info.level} />
 				<Link to={`/games/${id}/play`}>
 					<Button type="primary" block style={{ marginTop: "20px" }}>Start!!!</Button>
 				</Link>

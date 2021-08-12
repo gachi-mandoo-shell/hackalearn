@@ -8,6 +8,7 @@ const GameImg = ({ image }) => {
         marginBottom: "2rem",
       }}>
       <img
+        alt="cover"
         style={{
           borderRadius: "10px",
           width: "100%",

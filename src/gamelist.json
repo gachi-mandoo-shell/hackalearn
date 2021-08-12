@@ -12,7 +12,7 @@
       "description": "왕의 생일잔치를 도와라!",
       "place": "경복궁",
       "playtime": "30min",
-      "level": "4/5",
+      "level": "4",
       "isSkeleton": false,
       "view": [
        "/img/자선당.jpeg",
@@ -29,7 +29,7 @@
       "description": "잠실 롯데월드타워",
       "place": "롯데월드타워",
       "playtime": "30min",
-      "level": "4/5",
+      "level": "4",
       "isSkeleton": true
     },
     "4203": {
@@ -39,7 +39,7 @@
       "description": "보라매 공원",
       "place": "보라매 공원",
       "playtime": "30min",
-      "level": "4/5",
+      "level": "4",
       "isSkeleton": true
     },
     "4211": {
@@ -49,7 +49,7 @@
       "description": "왕의 생일잔치를 도와라!",
       "place": "경복궁",
       "playtime": "30min",
-      "level": "4/5",
+      "level": "4",
       "isSkeleton": true
     },
     "4212": {
@@ -59,7 +59,7 @@
       "description": "잠실 롯데월드타워",
       "place": "롯데월드타워",
       "playtime": "30min",
-      "level": "4/5",
+      "level": "4",
       "isSkeleton": true
     },
     "4213": {
@@ -69,7 +69,7 @@
       "description": "보라매 공원",
       "place": "보라매 공원",
       "playtime": "30min",
-      "level": "4/5",
+      "level": "4",
       "isSkeleton": true
     },
     "4221": {
@@ -79,7 +79,7 @@
       "description": "왕의 생일잔치를 도와라!",
       "place": "경복궁",
       "playtime": "30min",
-      "level": "4/5",
+      "level": "4",
       "isSkeleton": true
     },
     "4222": {
@@ -89,7 +89,7 @@
       "description": "잠실 롯데월드타워",
       "place": "롯데월드타워",
       "playtime": "30min",
-      "level": "4/5",
+      "level": "4",
       "isSkeleton": true
     },
     "4223": {
@@ -99,7 +99,7 @@
       "description": "보라매 공원",
       "place": "보라매 공원",
       "playtime": "30min",
-      "level": "4/5",
+      "level": "4",
       "isSkeleton": true
     }
   }

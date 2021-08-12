@@ -22,6 +22,7 @@ const View = ({ view, tag }) => {
       >
         {view.map((img) => (
           <img
+            alt={img}
             style={{
               width: "720px",
               height: "400px",
