@@ -13,20 +13,21 @@ const Card = ({ id, image, title, description, place, isLoding = false, isSkelet
           style={{
             display: "inline-block",
             width: "250px",
+            height: "290px"
           }}
           loading={isLoding}
           cover={
             <img
-            style={{
-              width: "100%",
-              height: "160px",
-              objectFit: "cover",
-            }}
-            alt={title}
-            src={image}
+              style={{
+                width: "100%",
+                height: "160px",
+                objectFit: "cover",
+              }}
+              alt={title}
+              src={image}
             />
           }
-          >
+        >
           <AntdCard.Meta title={`${title}`} description={description} />
           <AntdCard.Meta description={place} />
           {/* <p

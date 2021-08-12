@@ -42,6 +42,26 @@
       "level": "4",
       "isSkeleton": true
     },
+    "4204": {
+      "location": "Seoul",
+      "title": "연남동",
+      "image": "/img/경복궁.jpeg",
+      "description": "연남동",
+      "place": "보라매 공원",
+      "playtime": "30min",
+      "level": "4",
+      "isSkeleton": true
+    },
+    "4205": {
+      "location": "Seoul",
+      "title": "성수동",
+      "image": "/img/경복궁.jpeg",
+      "description": "연남동",
+      "place": "보라매 공원",
+      "playtime": "30min",
+      "level": "4",
+      "isSkeleton": true
+    },
     "4211": {
       "location": "Busan",
       "title": "왕의 생일잔치",
@@ -72,6 +92,26 @@
       "level": "4",
       "isSkeleton": true
     },
+    "4214": {
+      "location": "Busan",
+      "title": "연남동",
+      "image": "/img/경복궁.jpeg",
+      "description": "연남동",
+      "place": "보라매 공원",
+      "playtime": "30min",
+      "level": "4",
+      "isSkeleton": true
+    },
+    "4215": {
+      "location": "Busan",
+      "title": "성수동",
+      "image": "/img/경복궁.jpeg",
+      "description": "연남동",
+      "place": "보라매 공원",
+      "playtime": "30min",
+      "level": "4",
+      "isSkeleton": true
+    },
     "4221": {
       "location": "Jeju",
       "title": "왕의 생일잔치",
@@ -97,6 +137,26 @@
       "title": "보라매 공원",
       "image": "/img/경복궁.jpeg",
       "description": "보라매 공원",
+      "place": "보라매 공원",
+      "playtime": "30min",
+      "level": "4",
+      "isSkeleton": true
+    },
+    "4224": {
+      "location": "Jeju",
+      "title": "연남동",
+      "image": "/img/경복궁.jpeg",
+      "description": "연남동",
+      "place": "보라매 공원",
+      "playtime": "30min",
+      "level": "4",
+      "isSkeleton": true
+    },
+    "4225": {
+      "location": "Jeju",
+      "title": "성수동",
+      "image": "/img/경복궁.jpeg",
+      "description": "연남동",
       "place": "보라매 공원",
       "playtime": "30min",
       "level": "4",

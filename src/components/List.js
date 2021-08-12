@@ -1,13 +1,13 @@
 import React from "react";
-import Card from "./Card";
+import CardArray from "./CardArray";
 import { Divider } from "antd"
 
 const List = ({ location, data }) => {
-  console.log(data)
   return (
     <>
       <Divider orientation="left">{location}</Divider>
-      <div style={{
+      <CardArray data={data} />
+      {/* <div style={{
         display: "flex",
         gap: "20px",
       }}>
@@ -22,7 +22,7 @@ const List = ({ location, data }) => {
             isSkeleton={game.isSkeleton}
           />
         ))}
-      </div>
+      </div> */}
     </>
   );
 };

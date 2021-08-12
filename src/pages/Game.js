@@ -19,7 +19,7 @@ const Game = () => {
 
   return (
     <Container>
-      <Row style={{ rowGap: "50px" }}>
+      <Row>
         <Col span={16}>
           <GameImg image={info.image} />
           <View view={info.view} tag={info.tag} />

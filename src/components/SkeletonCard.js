@@ -6,12 +6,31 @@ const SkeletonCard = ({ isLoading }) => {
   return (
     <AntdCard
       style={{
+        padding: "0px",
+        position: "relative",
         display: "inline-block",
-        width: "250px",
+        width: "250px"
       }}
-      loading={isLoading}
+      cover={<Skeleton.Image style={{
+        top: 0,
+        left: 0,
+        width: "250px",
+        height: "160px",
+      }} />}
     >
-    <Skeleton loading avatar />
+      <Skeleton
+        title={{
+          style: {
+            margin: 0,
+            marginBottom: 8
+          }
+        }}
+        paragraph={{
+          rows: 2,
+          style: {
+            margin: 0
+          }
+        }} active />
     </AntdCard>
   );
 }
