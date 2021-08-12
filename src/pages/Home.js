@@ -23,12 +23,14 @@ const Home = () => {
   return (
     <Container>
       <Landing />
-      {data.locations.map((location) =>
-        <List key={location} location={location}
+      <div id="list">
+        {data.locations.map((location) =>
+          <List key={location} location={location}
           data={
             filterInfo(location)
           } />
-      )}
+          )}
+      </div>
     </Container>
   );
 };

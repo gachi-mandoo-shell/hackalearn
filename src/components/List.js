@@ -1,12 +1,12 @@
 import React from "react";
 import Card from "./Card";
-import { Card as AntdCard } from "antd"
+import { Divider } from "antd"
 
 const List = ({ location, data }) => {
   console.log(data)
   return (
     <>
-      <h1>{location}</h1>
+      <Divider orientation="left">{location}</Divider>
       <div style={{
         display: "flex",
         gap: "20px",
