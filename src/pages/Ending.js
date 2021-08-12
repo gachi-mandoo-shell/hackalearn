@@ -1,6 +1,5 @@
 import React from "react";
 import { useParams, Link } from "react-router-dom";
-import ReactMarkdown from "react-markdown"
 import Container from "../components/Container";
 import data from "../gamelist.json";
 import CardArray from "../components/CardArray";
