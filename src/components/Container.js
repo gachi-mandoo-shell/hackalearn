@@ -3,7 +3,7 @@ import { Layout } from "antd";
 import Footer from "./Footer";
 import Nav from "./Nav";
 
-const Container = ({ children }) => {
+const Container = ({ children, landing }) => {
   return (
     <Layout
       theme={"light"}
@@ -12,6 +12,7 @@ const Container = ({ children }) => {
       }}
     >
       <Nav />
+      {landing}
       <Layout.Content
         style={{
           marginLeft: "auto",

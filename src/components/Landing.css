@@ -1,20 +1,7 @@
 .landing_image {
-  width: 1200px;
-  height: 800px; 
-  /* backdrop-filter: blur( 7.0px ); */
-  object-fit: contain;
-  display: flex;
-  justify-content: left;
-  align-items: center;
-}
-.image {
-  width: 1200px;
-  height: 800px; 
-  background-image: url('../landing.png');
-}
-
-.landing_title {
-  font-size: 70px;
-  font-weight: bold;
-  font-family: sans-serif;
+  width: 100%;
+  height: 70vh;
+  background-image: url("../landing.png");
+  background-size: cover;
+  background-position: center top;
 }

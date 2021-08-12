@@ -7,15 +7,15 @@ import filterInfo from "../lib/util/filterInfo";
 
 const Home = () => {
   return (
-    <Container>
-      <Landing />
+    <Container landing={<Landing />}>
       <div id="list">
-        {data.locations.map((location) =>
-          <List key={location} location={location}
-          data={
-            filterInfo(data, location)
-          } />
-          )}
+        {data.locations.map((location) => (
+          <List
+            key={location}
+            location={location}
+            data={filterInfo(data, location)}
+          />
+        ))}
       </div>
     </Container>
   );
