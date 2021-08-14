@@ -1,6 +1,7 @@
 import React from "react";
 import { Layout, Menu, Typography } from "antd";
 import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 
 const Nav = () => {
   return (
@@ -33,19 +34,13 @@ const Nav = () => {
         </Typography.Title>
         <Menu theme={"dark"} mode={"horizontal"} selectedKeys={[]}>
           <Menu.Item>
-            <Link id={"home"} to={"/"}>
-              Home
-            </Link>
+            <Link to={"/"}>Home</Link>
           </Menu.Item>
           <Menu.Item>
-            <Link id={"list"} to={"/#list"}>
-              List
-            </Link>
+            <HashLink to={"/#list"}>List</HashLink>
           </Menu.Item>
           <Menu.Item>
-            <Link id={"about"} to={"/about"}>
-              About
-            </Link>
+            <Link to={"/about"}>About</Link>
           </Menu.Item>
         </Menu>
       </div>

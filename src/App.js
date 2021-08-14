@@ -1,14 +1,30 @@
-import { Route, BrowserRouter as Router, Switch } from "react-router-dom";
+import {
+  Route,
+  BrowserRouter as Router,
+  Switch,
+  useLocation,
+} from "react-router-dom";
 import Home from "./pages/Home";
 import Game from "./pages/Game";
 import Play from "./pages/Play";
 import Ending from "./pages/Ending";
 import About from "./pages/About";
 import NotFound from "./pages/NotFound";
+import React, { useEffect } from "react";
+
+const ScrollToTop = () => {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+  return <React.Fragment />;
+};
 
 const App = () => {
   return (
     <Router>
+      <ScrollToTop />
       <Switch>
         <Route path={"/"} exact>
           <Home />
