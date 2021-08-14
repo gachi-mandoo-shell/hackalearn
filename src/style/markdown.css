@@ -1,3 +1,9 @@
 .markdown li {
 	margin-bottom: 8px;
 }
+
+.endingIntroduce p {
+	margin-bottom: 4px;
+	font-size: 18px;
+	font-family: "Nanum Myeongjo";
+}

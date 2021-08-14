@@ -5,6 +5,11 @@ import data from "../gamelist.json";
 import CardArray from "../components/CardArray";
 import { Divider, Button } from 'antd';
 import filterInfo from "../lib/util/filterInfo";
+import ReactMarkdown from "react-markdown";
+import EndingIntro from "../components/EndingIntro";
+import "../style/markdown.css";
+import EndingRecipe from "../components/EndingRecipe";
+import remarkGfm from "remark-gfm"
 
 const Ending = () => {
   const { id } = useParams();
@@ -12,16 +17,30 @@ const Ending = () => {
 
   const currentData = filterInfo(data, currentLocation);
 
+  const dataById = data.datas[id];
+
   return (
     <Container>
-      <h1>Ending!</h1>
+      <EndingIntro
+        endingTopic={dataById.endingTopic}
+        endingImage={dataById.endingImage}
+        endingContents={dataById.endingContents} />
+      <EndingRecipe data={dataById.endingRecipe} cookingOrder={dataById.cookingOrder} />
       <Divider orientation="left">같은 지역 다른 게임 하기!</Divider>
       <CardArray data={currentData} />
-      <Button type="primary" block style={{marginTop: "30px"}}>
+      <Button type="primary" block style={{ marginTop: "30px" }}>
         <Link id={"list"} to={"/#list"}>
           다른 지역 게임 하러가기!
         </Link>
       </Button>
+      {/* <ReactMarkdown className="markdown" remarkPlugins={[remarkGfm]}>
+        {`
+
+| h1 | h2|
+|----|---|
+| c1 | c2|
+        `}
+      </ReactMarkdown> */}
     </Container>
   );
 };
