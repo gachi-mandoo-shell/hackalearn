@@ -1,4 +1,6 @@
 import React from "react";
+import { Divider } from "antd";
+import ReactMarkdown from "react-markdown";
 
 const Story = ({ story }) => {
   return (
@@ -10,14 +12,15 @@ const Story = ({ story }) => {
     >
       <h1
         style={{
-          marginTop: "2rem",
+          marginTop: "4rem",
           fontSize: "25px",
           fontWeight: "bold",
         }}
       >
         스토리
+        <Divider />
       </h1>
-      <p>{story}</p>
+      <ReactMarkdown>{story}</ReactMarkdown>
     </div>
   );
 };
