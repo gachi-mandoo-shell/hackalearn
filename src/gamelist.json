@@ -8,21 +8,21 @@
     "4201": {
       "location": "Seoul",
       "title": "왕의 생일잔치",
-      "image": "/img/경복궁.jpeg",
+      "image": "/img/4201/경복궁.jpeg",
       "description": "왕의 생일잔치를 도와라!",
       "place": "경복궁",
       "playtime": "30min",
       "level": "4",
       "isSkeleton": false,
       "view": [
-       "/img/자선당.jpeg",
-       "/img/경회루.jpeg",
-       "/img/소주방.jpeg"
+       "/img/4201/자선당.jpeg",
+       "/img/4201/경회루.jpeg",
+       "/img/4201/소주방.jpeg"
       ],
       "story": "경복궁 입구를 들어온 순간 갑자기 심부름을 받게되는데... 왕의 생일잔치 음식을 준비해야한다. 생일은 바로 내일! 왕이 먹고싶어하는 음식을 알아와라",
       "tag": "#서울 #경복궁 #역사 #심부름",
       "endingTopic": "갈비찜",
-      "endingImage": "/img/갈비찜.jpeg",
+      "endingImage": "/img/4201/갈비찜.jpeg",
       "endingContents": "갈비찜은 조선시대 궁중 음식으로, 왕의 수라상에만 오르던 음식입니다.\n\n원래는 궁중에서만 먹을 수 있던 귀한 음식이었지만 조선 후기부터는 서민들의 잔칫상에도 오르기 시작했습니다.\n\n기호에 맞게 넣을 수 있는 여러 고명, 부드러운 고기에 달짝지근한 양념 맛이 잘 배인 갈비찜은 남녀노소 누구나 좋아하는 음식입니다.\n\n갈비찜은 이제 한국을 대표하는 음식이 되었습니다. 한국에 방문하는 외국인들도 즐겨찾고 좋아하는 음식입니다.\n\n한국에 직접 방문하여 갈비찜을 먹어보기 어렵다면, 다음 레시피를 통해 직접 요리해서 먹어보는 것은 어떨까요?",
       "endingRecipe": "| 재료 | 양념 |\n|:----------:|:----------:|\n| 소갈비 800g | 갈비육수 4~5컵 |\n| 청주 1컵 | 간장 6큰술 |\n| 대파 1대 | 설탕 3큰술 |\n| 통후추 | 다진대파 2큰술 |\n| 마늘 1줌 | 다진마늘 1큰술 |\n| 고구마 1개 | 다진양파 4큰술 |\n| 감자 1개 | 참기름 1큰술 |\n| 당근 1/2개 | 후춧가루 |\n| 양파 1개 | 통깨 |\n| 대파 1/2개 | |\n| 홍고추 1~2개 | |\n| 불린 당면 1줌 | |",
       "cookingOrder": "1. 갈비는 찬물에 헹궈낸 다음 1~2시간 찬물에 담궈 핏물을 뺀다. 중간에 물을 한 번 갈아줘야 한다.\n\n2. 핏물을 뺀 갈비를 끓는 물에 데쳐낸 다음 물을 버리고, 새로운 물에 파, 통후추, 마늘, 청주 등을 넣고 1시간 정도 끓여준다.\n보통 1시간 정도 삶으면 갈비대가 쏙쏙 빠지는 부드러운 갈비가 만들어진다.\n갈비 상태에 따라 끓는 시간은 조절하면 된다.\n\n3. 삶은 갈비를 건져낸 다음 체로 육수를 걸러내고 그 육수에 다시 갈비, 감자, 당근, 고구마, 갈비양념을 넣고 함께 끓여준다.\n\n4. 감자와 당근이 반 정도 익으면 양파를 넣고 함께 끓여준다.\n\n5. 재료가 거의 다익으면 불린 당면과 파, 홍고추를 넣어서 마무리한다.\n\n6. 추가로 떡이나 만두 등을 기호에 맞게 추가하면 더욱 푸짐한 갈비찜이 만들어진다."
@@ -30,7 +30,7 @@
     "4202": {
       "location": "Seoul",
       "title": "롯데월드타워",
-      "image": "/img/경복궁.jpeg",
+      "image": "/img/4201/경복궁.jpeg",
       "description": "잠실 롯데월드타워",
       "place": "롯데월드타워",
       "playtime": "30min",
@@ -40,7 +40,7 @@
     "4203": {
       "location": "Seoul",
       "title": "보라매 공원",
-      "image": "/img/경복궁.jpeg",
+      "image": "/img/4201/경복궁.jpeg",
       "description": "보라매 공원",
       "place": "보라매 공원",
       "playtime": "30min",
@@ -50,7 +50,7 @@
     "4204": {
       "location": "Seoul",
       "title": "연남동",
-      "image": "/img/경복궁.jpeg",
+      "image": "/img/4201/경복궁.jpeg",
       "description": "연남동",
       "place": "보라매 공원",
       "playtime": "30min",
@@ -60,7 +60,7 @@
     "4205": {
       "location": "Seoul",
       "title": "성수동",
-      "image": "/img/경복궁.jpeg",
+      "image": "/img/4201/경복궁.jpeg",
       "description": "연남동",
       "place": "보라매 공원",
       "playtime": "30min",
@@ -70,7 +70,7 @@
     "4211": {
       "location": "Busan",
       "title": "왕의 생일잔치",
-      "image": "/img/경복궁.jpeg",
+      "image": "/img/4201/경복궁.jpeg",
       "description": "왕의 생일잔치를 도와라!",
       "place": "경복궁",
       "playtime": "30min",
@@ -80,7 +80,7 @@
     "4212": {
       "location": "Busan",
       "title": "롯데월드타워",
-      "image": "/img/경복궁.jpeg",
+      "image": "/img/4201/경복궁.jpeg",
       "description": "잠실 롯데월드타워",
       "place": "롯데월드타워",
       "playtime": "30min",
@@ -90,7 +90,7 @@
     "4213": {
       "location": "Busan",
       "title": "보라매 공원",
-      "image": "/img/경복궁.jpeg",
+      "image": "/img/4201/경복궁.jpeg",
       "description": "보라매 공원",
       "place": "보라매 공원",
       "playtime": "30min",
@@ -100,7 +100,7 @@
     "4214": {
       "location": "Busan",
       "title": "연남동",
-      "image": "/img/경복궁.jpeg",
+      "image": "/img/4201/경복궁.jpeg",
       "description": "연남동",
       "place": "보라매 공원",
       "playtime": "30min",
@@ -110,7 +110,7 @@
     "4215": {
       "location": "Busan",
       "title": "성수동",
-      "image": "/img/경복궁.jpeg",
+      "image": "/img/4201/경복궁.jpeg",
       "description": "연남동",
       "place": "보라매 공원",
       "playtime": "30min",
@@ -120,7 +120,7 @@
     "4221": {
       "location": "Jeju",
       "title": "왕의 생일잔치",
-      "image": "/img/경복궁.jpeg",
+      "image": "/img/4201/경복궁.jpeg",
       "description": "왕의 생일잔치를 도와라!",
       "place": "경복궁",
       "playtime": "30min",
@@ -130,7 +130,7 @@
     "4222": {
       "location": "Jeju",
       "title": "롯데월드타워",
-      "image": "/img/경복궁.jpeg",
+      "image": "/img/4201/경복궁.jpeg",
       "description": "잠실 롯데월드타워",
       "place": "롯데월드타워",
       "playtime": "30min",
@@ -140,7 +140,7 @@
     "4223": {
       "location": "Jeju",
       "title": "보라매 공원",
-      "image": "/img/경복궁.jpeg",
+      "image": "/img/4201/경복궁.jpeg",
       "description": "보라매 공원",
       "place": "보라매 공원",
       "playtime": "30min",
@@ -150,7 +150,7 @@
     "4224": {
       "location": "Jeju",
       "title": "연남동",
-      "image": "/img/경복궁.jpeg",
+      "image": "/img/4201/경복궁.jpeg",
       "description": "연남동",
       "place": "보라매 공원",
       "playtime": "30min",
@@ -160,7 +160,7 @@
     "4225": {
       "location": "Jeju",
       "title": "성수동",
-      "image": "/img/경복궁.jpeg",
+      "image": "/img/4201/경복궁.jpeg",
       "description": "연남동",
       "place": "보라매 공원",
       "playtime": "30min",

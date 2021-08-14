@@ -1,5 +1,5 @@
 import React from "react";
-import { Divider, List } from 'antd';
+import { Divider } from 'antd';
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm"
 
