@@ -11,6 +11,7 @@ import Ending from "./pages/Ending";
 import About from "./pages/About";
 import NotFound from "./pages/NotFound";
 import React, { useEffect } from "react";
+import Debug from "./pages/Debug";
 
 const ScrollToTop = () => {
   const { pathname } = useLocation();
@@ -40,6 +41,9 @@ const App = () => {
         </Route>
         <Route path={"/about"} exact>
           <About />
+        </Route>
+        <Route path={"/debug"} exact>
+          <Debug />
         </Route>
         <Route>
           <NotFound />
