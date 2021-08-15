@@ -24,8 +24,8 @@ const SideBar = ({ id, info }) => {
 				</Link>
 			</Card>
 			<Card style={{ borderRadius: "10px" }}>
-				<p>Goal Title</p>
-				<p>Goooooooooooooooal!!!</p>
+				<h3>Goal</h3>
+				<p>{ info.goal }</p>
 			</Card>
 		</div>
 	);
