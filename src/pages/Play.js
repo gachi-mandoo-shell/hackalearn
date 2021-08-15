@@ -254,7 +254,7 @@ const Play = () => {
                 image={data.npcImage}
                 onClick={() => {
                   notification.success({
-                    message: `${data.name} 를 획득하였다!`,
+                    message: `${data.name} 을(를) 획득하였다!`,
                     placement: "bottomRight",
                   });
                   setGame({
