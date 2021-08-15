@@ -9,7 +9,7 @@ const Footer = () => {
         marginRight: "auto",
       }}
     >
-      ©{new Date().getFullYear()}
+      <p>©{new Date().getFullYear()}  Team.생생한국통</p>
     </Layout.Footer>
   );
 };
