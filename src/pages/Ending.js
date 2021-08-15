@@ -6,15 +6,18 @@ import CardArray from "../components/CardArray";
 import { Divider, Button } from 'antd';
 import filterInfo from "../lib/util/filterInfo";
 import EndingIntro from "../components/EndingIntro";
+import NotFound from "./NotFound";
 import "../style/markdown.css";
 import EndingRecipe from "../components/EndingRecipe";
 
 const Ending = () => {
   const { id } = useParams();
+  const info = data.datas[id];
+
+  if (info === undefined || info.isSkeleton === true) return <NotFound />;
+
   const currentLocation = data.datas[id].location;
-
   const currentData = filterInfo(data, currentLocation);
-
   const dataById = data.datas[id];
 
   return (
