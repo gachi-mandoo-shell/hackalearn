@@ -13,9 +13,7 @@ const Game = () => {
   const { id } = useParams();
   const info = data.datas[id];
 
-  console.log(info);
-
-  if (info === undefined) return <NotFound />;
+  if (info === undefined || info.isSkeleton === true) return <NotFound />;
 
   return (
     <Container>
