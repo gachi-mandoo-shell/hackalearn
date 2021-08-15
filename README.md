@@ -106,3 +106,12 @@ npm run dev
 6. Github Action으로 들어가서 fork 된 repo의 Action 활성화
 7. 현재 github action repo deploy trigger가 `master push` 또는 mater에 대한 PR 이므로 간단한 readme.md 수정하여 **PUSH** 이벤트 발생
 8. workflows 작업 로그에서 작업이 완료되면 만든 정적웹앱의 URL로 접근!
+
+---
+
+### Etc
+
+개발하기 위해 추가로 구현한 것들...
+
+- [react-kakao-maps-sdk](https://github.com/JaeSeoKim/react-kakao-maps-sdk)
+- [kakao.maps.d.ts](https://github.com/JaeSeoKim/kakao.maps.d.ts)
