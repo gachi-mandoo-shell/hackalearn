@@ -1,70 +1,62 @@
-# Getting Started with Create React App
+<div align="center">
+  <h1>생생한국통</h1>
+  <strong>언제 어디서든 게임하듯 즐겁게, 한국의 문화와 풍경을 생생하게</strong>
+</div>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## About
 
-## Available Scripts
+<!-- TODO: 서비스 설명 추가 될 부분 -->
 
-In the project directory, you can run:
+## Build or Development
 
-### `npm start`
+### requirements
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+https://developers.kakao.com/product/map 에서 Kakao-map 을 동작시킬 도메인 (ex. http://localhost:3000, https://<RANDOM_NAME>.azurestaticapps.net 등)을 등록하여 `JavaScript 키` 를 발급 받아야 합니다.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### install dependency
 
-### `npm test`
+```bash
+npm install
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### setup environment
 
-### `npm run build`
+```
+// .env.local
+REACT_APP_KAKAOMAP_API_KEY=카카오에서 발급 받은 JAVASCRIPT API KEY
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### build
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+npm run build
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### serve
 
-### `npm run eject`
+```bash
+npm install -g serve
+// serve가 없는 경우에만
+serve -s build
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### development server
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+npm run dev
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Deploy
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+1. 현재 Repo를 fork 를 진행
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+2. Microsoft Azure 에서 새로운 정적 웹앱 프로젝트 생성
+   - 배포 세부 정보를 **기타** 로 설정
+3. 생성된 정적 웹앱 페이지에서 **배포 토큰 관리** 항목으로 들어가 배포 토큰 확인
+4. fork 된 Repo의 Settings으로 이동
+5. Actions secrets으로 이동하여 **Repository secrets** 에서 아래의 항목 추가
+   - `AZURE_STATIC_WEB_APPS_API_TOKEN_GRAY_TREE_0E5A77A00` 에 발급 받은 배포토큰으로 설정
+   - `REACT_APP_KAKAOMAP_API_KEY` 에 카카오에서 발급 받은 JAVASCRIPT API KEY로 설정
+6. Github Action으로 들어가서 fork 된 repo의 Action 활성화
+7. 현재 github action repo deploy trigger가 `master push` 또는 mater에 대한 PR 이므로 간단한 readme.md 수정하여 **PUSH** 이벤트 발생
+8. workflows 작업 로그에서 작업이 완료되면 만든 정적웹앱의 URL로 접근!
