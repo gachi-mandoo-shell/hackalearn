@@ -223,10 +223,14 @@ const Play = () => {
               scripts={PlayData.boss.scripts}
               image={PlayData.boss.npcImage}
               onClick={() => {
-                setGame({
-                  ...game,
-                  isFinished: true,
-                });
+                localStorage.setItem(
+                  `game-stat-${id}`,
+                  JSON.stringify({
+                    ...game,
+                    lastTime: new Date(),
+                    isFinished: true,
+                  })
+                );
                 history.push(`/games/${id}/ending`);
               }}
             />
