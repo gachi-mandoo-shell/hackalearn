@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { InfoCircleOutlined } from "@ant-design/icons";
+import { FiMap } from "react-icons/fi";
 import { Button, Modal } from "antd";
 
 const Map = ({ mapSrc }) => {
@@ -16,7 +16,7 @@ const Map = ({ mapSrc }) => {
         }}
         onClick={() => setIsOpen(true)}
       >
-        <InfoCircleOutlined
+        <FiMap
           style={{
             color: "#424242",
             fontSize: "48px",

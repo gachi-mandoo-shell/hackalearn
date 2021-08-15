@@ -1,4 +1,4 @@
-import { InboxOutlined } from "@ant-design/icons";
+import { BiCart } from "react-icons/bi";
 import { Button, Card, Col, Modal, Row } from "antd";
 import React, { useState } from "react";
 
@@ -15,7 +15,7 @@ const Inventory = ({ items }) => {
         }}
         onClick={() => setIsOpen(true)}
       >
-        <InboxOutlined
+        <BiCart
           style={{
             color: "#424242",
             fontSize: "48px",
@@ -56,12 +56,12 @@ const Inventory = ({ items }) => {
                         height: "100%",
                         objectFit: "cover",
                       }}
-                      src={item.itemImage}
-                      alt={item.title}
+                      src={item.image}
+                      alt={item.name}
                     />
                   }
                 >
-                  <Card.Meta description={item.title} />
+                  <Card.Meta description={item.name} />
                 </Card>
               </Col>
             ))

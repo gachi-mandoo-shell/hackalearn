@@ -25,7 +25,6 @@ const Debug = () => {
     lng: 126.9769239284286,
     panoId: 1016684797,
     pan: null,
-    zoom: null,
     tilt: null,
   });
 
@@ -121,7 +120,6 @@ const Debug = () => {
             ...position,
             pan: roadview.getViewpointWithPanoId().pan,
             tilt: roadview.getViewpointWithPanoId().tilt,
-            zoom: roadview.getViewpointWithPanoId().zoom,
             panoId: roadview.getPanoId(),
           });
         }}
